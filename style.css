@@ -1,0 +1,113 @@
+/* use /* to hide text and * / to unhide*/
+#test {
+  background: black;
+}
+
+h1 {
+border-radius: 69px;
+background: #e0e0e0;
+box-shadow:  9px 9px 18px #a1a1a1,
+             -9px -9px 18px #ffffff;
+text-align: 20px;
+padding: 12.5px;
+font-family: "Copperplate";
+
+  
+}
+/* Have ID's for different lines of the same tag*/
+#mainPar {
+  font-size: 15px;
+  color: darkgray;
+  
+} 
+
+#secPar {
+  font-size: 15px;
+  color: #566573;
+} 
+
+/*p {
+  font-size: 15px;
+  color: darkgray;
+} */ 
+
+ .Food {
+   color:mediumslateblue;
+
+ }
+
+ .Object {
+   color:silver;
+ }
+/* creates a box around the html code */
+#box {
+border-radius: 67px;
+background: #e0e0e0;
+box-shadow:  9px 9px 17px #a1a1a1,
+             -9px -9px 17px #ffffff;
+  width:500px;
+  height:175px;
+  padding:25px;
+  vertical-align: middle;
+  margin: 10px auto 10px auto;
+}
+#boxmain {
+border-radius: 67px;
+background: #e0e0e0;
+box-shadow:  9px 9px 17px #a1a1a1,
+             -9px -9px 17px #ffffff;
+width:500px;
+height:175px;
+padding:25px;
+vertical-align: right;
+margin: 10px auto 10px auto;
+  
+}
+
+#boxsecond {
+  border-radius: 67px;
+background: #e0e0e0;
+box-shadow:  9px 9px 17px #a1a1a1,
+             -9px -9px 17px #ffffff;
+  width:500px;
+  height:175px;
+  padding:25px;
+  vertical-align: middle;
+  margin: 10px auto 10px auto;
+}
+
+#box2 {
+  border-radius: 67px;
+background: #e0e0e0;
+box-shadow:  9px 9px 17px #a1a1a1,
+             -9px -9px 17px #ffffff;
+  width:200px;
+  height:25px;
+  margin: 10px auto 10px auto;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 25px
+}
+
+#image {
+  border-image: 100px;
+  line-height: 25px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  size: 100px
+}
+
+body {
+  font-size: 16px
+}
+
+p {
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}

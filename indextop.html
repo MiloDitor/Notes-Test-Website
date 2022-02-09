@@ -1,0 +1,131 @@
+<!--- defining what type of document it is --->
+<!DOCTYPE html>
+<!--- this is the html opening and closing tags, this is where the website will be--->
+<!--- we have two areas in a website, a head and a body, the head is what defines what the tab is called. --->
+<html>
+  <head>
+    <title>Odin Lesson Notes</title>
+<!--- This is a meta tag which allows you to add more information or change information in the title/description--->
+<!--- allows language to change--->
+    <meta charset="UTF-8">
+<!--- description of website--->
+    <meta name="description" content="Odin Lessons">
+<!--- displays an icon in the tab--->
+    <link rel="icon" href="picon.ico">
+<!--- name what we want and reference it for style to work. --->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<h1> How does the web work? </h1>
+<h2>Resource List:</h2>
+<div>
+<p><a href="https://www.youtube.com/watch?v=eHp1l73ztB8">How Does The Internet Work? [Video]</a> </p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work" title="Work 1">How Does The Internet Work? [Resource]</a></p>
+<p><a href="https://www.youtube.com/watch?v=7_LPdttKXPc&t=46s" title="Work 1">How the Internet Works in 5 Minutes</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines" title="Work 1">What is the difference between webpage, website, web server, and search engine?</a></p>
+<p><a href="https://www.youtube.com/watch?v=BrXPcaRlBqo" title="Work 1">What is a browser?</a></p>
+
+<h2>Notes:</h2>
+<ul>
+  <li>There are 4 buildings in london filled with comupters to keep the internet ticking</li>
+  <li>In 1969 the american defense department decided it needed a network to connect university equiptment. This was the birth of the internet.</li>
+  <li>The internet is not the world wide web, the www sits on the internet.</li>
+  <li>Your search goes from your device through different regional networks until it reaches the databse were videos are stored. Videos for example are too big and would crash if sent in one big bundle so it is torn apart and sent in little packets and then organised once it reaches your device</li>
+  <li>There are two types of information, good quality information and bad quality information; the information we hear is from the people we have chosen to listen to, the internet has isolated us from debates and blurs the line between facts and fake news. </li>
+  <li>The internet is the backbone of the web</li>
+  <li>Connecting computers isnt unusual and can be done via ethernet cable or wirelessly (via wifi or bluetooth systems) but if done by wires you would need a lot of cables</li>
+  <li>For example ^^ connecting 10 computers together would cost you 45 cables, with nine plugs per computer, to solve this each computer on a network is connected via a router. A router has one job which is to act like a signaler acts for a railway station</li>
+  <li>This ensures that a message going from Computer A to Computer B does not go to Computer C by mistake. Once this router is added the computers only need 10 cables, one per cable and a router with enough plugs to contain them.</li>
+  <li>To keep this going so millions of computers can connect you can connect a router to another router, this can happen an infinite amount of times and is very close to what we call the internet, having routers connecting everyone isnt realistic though so we need another solution.</li>
+  <li>To counter this issue we need to use something every building has, a telephone and electric lines would suffice, we just need a modem to turn the information from the network into manageble information for the electric and telephone lines.</li>
+  <li>To then connect networks to other networks we cant to connect our network to an ISP (Internet Service Provider); An ISP is a company that handles special routers that are all linked together and can also access other ISP routers, this allows us to connect to everyone anywhere and creates what we call the internet</li>
+  <li>A web browser is a program on your computer that allows you to access websites,</li>
+</ul>
+
+</div>
+
+<h1> INTRODUCTION TO HTML AND CSS </h1>
+<h2> Resource List: </h2>
+<div>
+<p><a href="https://brytdesigns.com/html-css-javascript-whats-the-difference/" title="Work 2"> HTML vs CSS vs JS </a></p>
+<ul>
+  <li>HTML like CSS is technically not a language as they don't program logic, HTML defines what text, images, links ect will be on the page while CSS is used in the style sheet to make your text and images look better and pleasing to the eye.</li>
+  <li>JS unlike HTML and CSS is a coding language and in web development it is used to create interactions and to advance them, making the website respond better to the user moving their mouse or clicking on an image, they would create animations for an example. </li>
+  <li>With HTML, you will be able to create the structure of your website. </li>
+  <li>CSS gives you the ability to make the website look more visually appealing. </li>
+  <li>As for JavaScript, this is a robust programming language that allows you to effectively change the HTML and CSS components of your website to match your specifications precisely. </li>
+  <li>HTML stands for Hypertext Markup Language. </li>
+  <li> While CSS is a static programming language, it can be used to make your website appear visually pleasing and modern</li>
+</ul>
+  
+  <img src="htmlcssjs.png" class="centre"</img>
+
+
+
+</div>
+
+<h1> Command Line Basics</h1>
+<h2> Resource List:</h2>
+<div>
+<p> <a href="https://www.softcover.io/read/fc6c09de/unix_commands/basics" title="Work 1">Conquering the Command Line: Chapter 1 </a></p>
+<ul>
+  <li>PWD \\\ pwd is the command to your home directory. </li>
+  <li>-P \\\ To see the actual physical path do -P on the end of pwd </li>
+  <li>ls \\\ ls is the command to show what files are in your directory. </li>
+  <li>-a \\\ To see the hidden and revealed files via .dot we would put a -a infront of ls "ls -a" </li>
+  <li>-l \\\ Put -l infront of ls to see more details about the files "ls -l", furthermore putting h in there gives you exact sizes of the files "ls -lh" </li>
+  <li>-s \\\ Using -s we can sort the files by size "ls -lhs" </li>
+  <li>-t \\\ Put -t to show the last modified time "ls -lt" </li>
+  <li>-r \\\ You can also put -r to reverse the list "ls -lr" </li>
+  <li>ln \\\ ln is a separate code, you would use it to bridge two files "ln a.txt b.txt" </li>
+  <li>info \\\ In the example above a.txt is the source file and b.txt is the target file </li>
+  <li>info \\\ This is called a hard link and it is the default link, this basically duplicates the file and all of its contents, this can only work as long as the files are on the same file system. Duplicating the a.txt essentially makes the b.txt through that command </li>
+  <li>-s \\\ Using the -s flag in ln makes it a symbolic link which means it can work in directories "ln -s a.txt b.txt" </li>
+  <li>info\\\ If the source file gets deleted the target new file will continue to exist independently, despite the now severed link. </li>
+  <li>rm \\\ rm is how you remove a file "rm test.txt" </li>
+  <li>touch \\\ while touch is how you create "touch test.txt" </li>
+  <li>cat \\\ Using cat, you can see the contents of the file, "cat test.txt" </li>
+  <li>-f \\\ If the suggested target link already exists you will be met with an error, you can bypass this error and overwrite the file by using a -f flag. "lm -f a.txt b.txt" </li>
+  <li>cd \\\ You will eventually need to transfer to another directory, to do this use the cd (change directory) flag. "cd -/Documents" </li>
+  <li>mkdir \\\ We can create a directory by using the mkdir command. "mkdir (name of directory)" </li>
+  <li>-p \\\ Using the -p flag you can create nested directories which are just subfolders in said directory. "mkdir -p a/b/c" </li>
+  <li>-v \\\ You can use the -v (verbose output) command which will print the results of the mkdir to the console "mkdir -v a", "mkdir: created directory 'a' ". </li>
+  <li>cp \\\ Copying files (cp) are different from link (ln), using cp you can copy files to directories or copy entire directories. "cp a.txt b.txt" </li>
+  <li>info \\\ You can also use cp to copy multiple files at once but you must end the command with a directory and the original file names will be used. "cp a.txt b.txt (directory name)" </li>
+  <li>-v \\\ Using -v within your cp will show the verbose output for the files. "cp -v a.txt b.txt", "a.txt -> b.txt" </li>
+  <li>-R \\\ To copy directories without an error use the -R "cp -Rv (direct a) (direct b)" </li>
+  <li>-f \\\ When overwriting a file without permission (another users file) you can use the -f flag to force overwrite. "cp -f a.txt b.txt" </li>
+  <li>-i \\\ When overwriting several files cp will send you a confirmation if you use the -i flag which will direct you to a y/n. "cp -i a.txt b.txt </li>
+  <li>info \\\ Moving files is essentially copying while removing it from its previous location, the commnd for this is mv. "mv a.txt b.txt" </li>
+  <li>grep \\\ use grep as a search tool "grep smile" </li>
+  <li>| \\\ You can use |(Redirecting Output) to add more commands on a single line, in the example shown you can see using the | you can search for a term off the previous command which directed you to the home directory. "ls -a - | grep _" </li>
+  <li>> \\\ Using the write operator (>) you can directly write into a file. "ls -a ~ | grep _ > underscores.txt" </li>
+  <li>< \\\ Using the read operator (<) you can read from the file. </li>
+
+</div>  
+
+<h1>Git Introduction </h1>
+<h2>Resources:</h2>
+<p> <a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control" title="Work 1">Git Version Control. </a></p>
+<p> <a href="https://www.youtube.com/watch?v=8oRjP8yj2Wo" title="Work 1">What is VCS? (Git-SCM) • Git Basics #1
+ </a></p>
+ <p> <a href="https://www.youtube.com/watch?v=1h9_cB9mPT8&feature=youtu.be&t=13s" title="Work 1">GitHub for Noobs (1/4) – A Short History
+ </a></p>
+  <p> <a href="https://github.com/TheOdinProject/curriculum" title="Work 1">TOP GitHub repository
+ </a></p>
+<div>
+<ul>
+ <li>  </li> 
+   </ul>
+</div>
+<h1> These are my pages </h1>
+<div id="boxsecond">
+<p>Link to <a href="indexstructured.html">How to make pasta</a></p>
+<p>Link to <a href="indexlist.html">all of my lists</a></p>
+<p>Link to <a href="indexbase.html">all of my lessons</a></p>
+<p>Link to <a href="index.html">Front Page</a></p>
+<p>Link to <a href="indextop.html">Odin Project Lesson Notes</a></p>
+</div>  
+  </body>
+
+</html>

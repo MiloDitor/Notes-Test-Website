@@ -1,0 +1,208 @@
+<!----When using a tag <_> you need to close it off by </_>----->
+
+
+<!--This is h1 aka header 1, the largest font-->
+<h1>My Website</h1>
+
+<!--This is h2 aka header 2, the second largest font-->
+<h2>The contents</h2>
+
+<!--This is h3 aka header 3, the third largest font, this goes down to h6 which is smaller than the normal text-->
+<h3>What??</h3>
+
+Text 
+
+<h6>Text</h6>
+
+<!------------------------------------------------>
+<!--- <p> is a paragrapth tag, they keep the text on different lines.---->
+<p>I want to learn coding</p>
+<p>Test hi</p>
+
+
+<!--- In HTML you can do tags in tags---->
+<!--- <a> is a link tag, they allow you to send a working link.--->
+<!--- you need to put href="website link"> before the name of the link for it to work.---->
+<!--- doing title="__" allows you to put some information when you hover over the link.---->
+<p>Find free resources on <a
+href="https://academy.zenva.com" title="Learn Programming">Zenva</a></p>
+
+<!--- This is how to link within your website, you need to follow the file not a www. ---->
+<p>Link to <a href="indexstructured.html">another page</a></p>
+
+<!--- <img> is an image tag, they allow you to post images on your website. ---->
+<!--- same as links you need to put extra code before it works, this is "src="" " src means source ---->
+<img src="meme.jpg"></img>
+
+<!--- you can make a self-closing tag when theres no context, shown below.---->
+<img src="meme2.jpg"/>
+
+<!--- you can also use images from the internet, you just need to replace whats in src.---->
+<img src="https://www.google.co.uk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
+
+
+<!--- this is how you make a break tag--->
+<!---<br> is a break tag, below it is also self closing as it doesnt have any context--->
+<p>I want to <br/> learn coding </p>
+
+
+<!--- There are two types of lists, unordered and ordered, an example of an unordered list is a shopping list, an ordered list would be something like a cooking recipe.--->
+<!--- an unordered list is laid out with dot points, an ordered list is laid out with sequential numbers--->
+<h1> Unordered Todo List (Shopping List)</h1>
+<!--- <ul> is an unordered list tag, they allow you to create an unordered list. ---->
+<!--- <li> is a list item tag, they allow you to create an unordered list. ---->
+<ul>
+  <li>Salt</li>
+  <li>Pasta</li>
+  <li>Sauce Pot</li>
+</ul>
+
+<h1> Ordered Todo List (Cooking Pasta)</h1>
+<!--- <ol> is an ordered list tag, they allow you to create a list with numbered bullet points. ---->
+<!--- <li> is a list item tag, they allow you to create an unordered list. ---->
+<ol>
+  <li>Get a sauce pot</li>
+  <li>Fill with water and salt.</li>
+  <li>Let it boil</li>
+  <li>Put pasta in pot</li>
+  <li>Let boil and enjoy!</li>
+</ol>
+
+
+<!--- Cooking pasta with a link!!! ---->
+<h1> Ordered Todo List (<a href="https://www.jessicagavin.com/how-to-cook-pasta/" title="How to cook Pasta">Cooking Pasta</a>)</h1>
+<!--- <ol> is an ordered list tag, they allow you to create a list with numbered bullet points. ---->
+<!--- <li> is a list item tag, they allow you to create an unordered list. ---->
+<ol>
+  <li>Get a sauce pot</li>
+  <li>Fill with water and salt</li>
+  <li>Let it boil</li>
+  <li>Put pasta in pot</li>
+  <li>Let boil and enjoy!</li>
+</ol>
+
+<!--- <form> is a form tag, they allow you to create forms for databases, servers or general info. Its a way to communicate with the website. ---->
+<!--- <input> is an input tag, they allow you to create a space for the user to type. ---->
+<!--- We should define what type of input it is, this is done by a type attribute. example: type="text" ---->
+<!--- The value attribute gives a name to a certain input, we used this to name the button which was made through a submit attribute. We also created a checkbox by using the checkbox attribute. ---->
+<!--- Adding a required attribute allows certain information to 100% be submitted before saving. This is a true or false attribute; unlike type which you need to define. ---->
+<!--- The checked attribute automatically checks the checkbox (shown in the form below) ---->
+
+<h1> Forms </h1>
+<h3> with check tag </h3>
+<!--- Creates a form --->
+<form>
+<!--- Creates the input fields ---->
+  Name: <input type="text" required/>
+  Age: <input type="number" required/>
+<!--- checkbox--->
+  <input type="checkbox" checked/> is enrolled?
+<!--- this is a text area to allow you to type whatever info you need.--->
+  <textarea></textarea>
+<!--- Creates the button ---->
+  <input type="submit" value="Save" />
+</form>
+
+<!--- <div> is an extremely important and versatile tag, they contain the html code onto one horizontal line and separates the code. ---->
+
+<h1> div Forms </h1>
+
+<!--- Creates a form --->
+<form>
+<!--- Creates the input fields ---->
+  <div>
+    Name: <input type="text" required/>
+  </div>
+  <div>
+  Age: <input type="number" required/>
+  </div>
+  <div>
+  <!--- checkbox--->
+    <input type="checkbox" /> is enrolled?
+  </div>
+   <!--- this is a text area to allow you to type whatever info you need.--->
+  <div>
+    <textarea></textarea>
+  </div>
+
+<!--- Creates the button ---->
+  <div>
+  <input type="submit" value="Save" />
+  </div>
+</form>
+
+ <!--- The <select> tag is similar to a list but it creates a new line or tag for each element we can choose, you can put selected in the option tag to show that option as the default option.--->
+
+<h1> Select Forms </h1>
+<!--- Creates a form --->
+<form>
+<!--- Creates the input fields ---->
+  <div>
+    Name: <input type="text" required/>
+  </div>
+  <div>
+  Age: <input type="number" required/>
+  </div>
+  <div>
+  <!--- checkbox--->
+    <input type="checkbox" /> is enrolled?
+  </div>
+   <!--- this is a text area to allow you to type whatever info you need.--->
+  <div>
+    <textarea></textarea>
+  </div>
+  <div>
+    Colour:
+    <select>
+      <option>Red</option>
+<!--- now made the default option.--->
+      <option selected>Blue</option>
+      <option>Green</option>
+      <option>Yellow</option>
+    </select>
+  </div>
+<!--- Multiple Selections--->
+<!--- The multiple attibute allows the selection to contain multiple selections.--->
+   <div>
+    Countries:
+    <select multiple>
+      <option>England</option>
+      <!--- now made the default option.--->
+      <option selected>USA</option>
+      <option>China</option>
+      <option>Poland</option>
+    </select>
+  </div>
+<!--- Creates the button ---->
+  <div>
+  <input type="submit" value="Save" />
+  </div>
+</form>
+
+<!--- We dont use tables for layouts of a website, we do that in css ---->
+<!--- <table> is the tag to make tables. we have rows then data in those rows. to define a table row we use the <tr> tag. to add table data we use the <td> tag which will give content to the cell.---->
+<!--- <table> is the primary tag, <tr> is the secondary and <td> is the tertiary tag. We can switch the first <td> for <th> which makes a table header(makes it bold) --->
+<!--- adding a border attribute to the table tag creates a visible border on the website. --->
+
+<h1> Tables </h1>
+<!--Create the table-->
+<table border>
+<!--Create a row-->
+  <tr>
+<!--Create header cells in row-->
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+  </tr>
+<!--Create more rows-->
+  <tr>
+    <td>1</td>
+    <td>22</td>
+    <td>33</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>22</td>
+    <td>33</td>
+  </tr>
+</table>
